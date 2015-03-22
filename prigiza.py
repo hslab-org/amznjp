@@ -45,6 +45,7 @@ def getrise(asin):
 	y = y.replace(']','')
 	y = y.replace('				','')
 	y = y.split(",")
+
 	y = map(int, y)
 
 	w = w.replace('\t\t\t\t\t\t\t\t<span class="red"><strong>\xc2\xa5 ','')
@@ -63,6 +64,7 @@ def getrise(asin):
 		rankold = y[i+3]
 
 		if ( tmp.days > 29 ) : break
+
 
 	return rise,w
 
@@ -93,7 +95,6 @@ for i in range(1, arglen):
 		asinlist += "\n"+arg[i]
 
 for i in asinlist.split('\n'):
-	tmp = getrise(i)
-
-	if (tmp>=5):
-		print str(tmp[0])+","+str(tmp[1])+","+str(i)
+	if (i!=''):
+		tmp = getrise(i)
+		if (tmp>=5): print str(tmp[0])+","+str(tmp[1])+","+str(i)
