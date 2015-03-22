@@ -1,4 +1,4 @@
-prigiza(ver 0.001)
+prigiza(ver 0.002)
  
 prigizaはamazonjapanの商品が売れているかどうかを気軽に調べるツールです。
 
