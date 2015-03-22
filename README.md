@@ -14,7 +14,7 @@ ASINコードを一行一行リスト化したテキストファイルを読み�
 
 インストール方法
 
-　0. Pythonをインストール（LinuxやMacの場合最初から入っている確率が高い）
+　0. Pythonとgitをインストール（LinuxやMacの場合最初から入っている確率が高い）
 
 　1. $ git clone https://github.com/nextaacs/amznjp.git
 
