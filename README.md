@@ -14,6 +14,8 @@ ASINコードを一行一行リスト化したテキストファイルを読み�
 
 インストール方法
 
+　0. Pythonをインストール（LinuxやMacの場合最初から入っている確率が高い）
+　
 　1. $ su
 
 　2. # cp ./prigiza.py /usr/bin/prigiza
