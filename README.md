@@ -16,8 +16,12 @@ ASINコードを一行一行リスト化したテキストファイルを読み�
 
 　0. Pythonをインストール（LinuxやMacの場合最初から入っている確率が高い）
 
-　1. $ su
+　1. $ git clone https://github.com/nextaacs/amznjp.git
 
-　2. # cp ./prigiza.py /usr/bin/prigiza
+　2. $ cd amznjp
 
-　3. # prigiza
+　3. $ su
+
+　4. # cp ./prigiza.py /usr/bin/prigiza
+
+　5. # prigiza
