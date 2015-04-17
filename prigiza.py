@@ -97,4 +97,4 @@ for i in range(1, arglen):
 for i in asinlist.split('\n'):
 	if (i!=''):
 		tmp = getrise(i)
-		if (tmp>=5): print str(tmp[0])+","+str(tmp[1])+","+str(i)
+		print str(tmp[0])+","+str(tmp[1])+","+str(i)
