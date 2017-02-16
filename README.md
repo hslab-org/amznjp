@@ -1,3 +1,5 @@
+##【　注意　】　pricecheckというサイトがなくなったので動作しません。##
+
 prigiza(ver 0.002)
  
 prigizaはamazonjapanの商品が売れているかどうかを気軽に調べるツールです。
